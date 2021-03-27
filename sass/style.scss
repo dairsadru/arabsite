@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    height: 180px;
+    background-color: black;
+    padding-top: 50px;
+
+    h1 {
+        font-size: 7em;
+        text-align: center;
+        color: bisque;
+    }
+}
+
+.lessons {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+
+    }
+
+    audio {
+        width: 1940px;
+    }
+
+    .checkboxs {
+        position: relative;
+
+        .check1 {
+            position: absolute;
+            top: -560px;
+            right: 574px;
+        }
+
+        .check2 {
+            position: absolute;
+            top: -420px;
+            right: 574px;
+        }
+
+        .check3 {
+            position: absolute;
+            top: -270px;
+            right: 574px;
+        }
+
+        .check4 {
+            position: absolute;
+            top: -115px;
+            right: 574px;
+        }
+
+        .check5 {
+            position: absolute;
+            top: -560px;
+            left: 440px;
+        }
+
+        .check6 {
+            position: absolute;
+            top: -420px;
+            left: 440px;
+        }
+
+        .check7 {
+            position: absolute;
+            top: -270px;
+            left: 440px;
+        }
+    }
+
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  height: 180px;
+  background-color: black;
+  padding-top: 50px;
+}
+
+header h1 {
+  font-size: 7em;
+  text-align: center;
+  color: bisque;
+}
+
+.lessons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.lessons img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.lessons audio {
+  width: 1940px;
+}
+
+.lessons .checkboxs {
+  position: relative;
+}
+
+.lessons .checkboxs .check1 {
+  position: absolute;
+  top: -560px;
+  right: 574px;
+}
+
+.lessons .checkboxs .check2 {
+  position: absolute;
+  top: -420px;
+  right: 574px;
+}
+
+.lessons .checkboxs .check3 {
+  position: absolute;
+  top: -270px;
+  right: 574px;
+}
+
+.lessons .checkboxs .check4 {
+  position: absolute;
+  top: -115px;
+  right: 574px;
+}
+
+.lessons .checkboxs .check5 {
+  position: absolute;
+  top: -560px;
+  left: 440px;
+}
+
+.lessons .checkboxs .check6 {
+  position: absolute;
+  top: -420px;
+  left: 440px;
+}
+
+.lessons .checkboxs .check7 {
+  position: absolute;
+  top: -270px;
+  left: 440px;
+}
+/*# sourceMappingURL=style.css.map */
