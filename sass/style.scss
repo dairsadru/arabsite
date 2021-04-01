@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
 header {
     height: 180px;
     background-color: black;
@@ -20,60 +25,35 @@ header {
     flex-direction: column;
 
     img {
-        width: 100%;
+        width: 100vw;
         height: 100%;
         object-fit: fill;
 
     }
 
     audio {
-        width: 1940px;
+        width: 100vw;
     }
 
-    .checkboxs {
-        position: relative;
+}
 
-        .check1 {
-            position: absolute;
-            top: -560px;
-            right: 574px;
-        }
+.worlds {
+    width: 90vw;
+    font-size: 25px;
+    display: flex;
+}
 
-        .check2 {
-            position: absolute;
-            top: -420px;
-            right: 574px;
-        }
-
-        .check3 {
-            position: absolute;
-            top: -270px;
-            right: 574px;
-        }
-
-        .check4 {
-            position: absolute;
-            top: -115px;
-            right: 574px;
-        }
-
-        .check5 {
-            position: absolute;
-            top: -560px;
-            left: 440px;
-        }
-
-        .check6 {
-            position: absolute;
-            top: -420px;
-            left: 440px;
-        }
-
-        .check7 {
-            position: absolute;
-            top: -270px;
-            left: 440px;
-        }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1em;
     }
 
+    .worlds {
+        flex-direction: column;
+    }
+}
+
+video {
+    width: 100vw;
+    height: 30px;
 }
